@@ -1,0 +1,58 @@
+h1,h2,h4,p,ul,li{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: rgb(252, 245, 245);
+}
+
+@media screen and (max-width: 480px){
+  .App{
+   background-color: #0eaceb;
+   height: 100vh;
+   padding: 20px;
+}
+.region{
+  text-align: center;
+}
+.country{
+   text-align: center;
+}
+.imgWeather{
+  display: block;
+  margin: 0 auto;
+}
+.weatherTemp{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.weatherInfo{
+  margin-bottom: 50px ;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+.list img{
+  margin-right: 5px;
+  width: 30px;
+  
+}
+.list p {
+  font-size: 15px;
+}
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #ebebeb85;
+}
+.futureList{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+}
